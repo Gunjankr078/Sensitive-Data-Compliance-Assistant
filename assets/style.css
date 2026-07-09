@@ -1,0 +1,94 @@
+/* Main background */
+.stApp{
+    background:#F7F9FC;
+}
+
+/* Remove default padding */
+.block-container{
+    padding-top:2rem;
+    padding-bottom:2rem;
+    padding-left:3rem;
+    padding-right:3rem;
+}
+
+/* Card */
+.metric-card{
+    background:white;
+    padding:18px;
+    border-radius:12px;
+    border:1px solid #E5E7EB;
+    box-shadow:0 2px 6px rgba(0,0,0,.05);
+}
+
+/* Upload */
+.upload-box{
+    background:white;
+    border-radius:12px;
+    border:2px dashed #8B5CF6;
+    padding:30px;
+    text-align:center;
+}
+
+/* Summary */
+.summary-card{
+    background:#F0FDF4;
+    border-radius:12px;
+    padding:20px;
+    border:1px solid #BBF7D0;
+}
+
+/* Chat */
+.chat-card{
+    background:white;
+    border-radius:12px;
+    border:1px solid #E5E7EB;
+    padding:20px;
+}
+
+.metric-card{
+    background:#ffffff;
+    padding:20px;
+    border-radius:15px;
+    border:1px solid #E5E7EB;
+    box-shadow:0px 2px 8px rgba(0,0,0,.08);
+    text-align:center;
+    margin-bottom:15px;
+}
+
+.metric-title{
+    font-size:16px;
+    color:#666;
+    font-weight:600;
+}
+
+.metric-value{
+    font-size:34px;
+    font-weight:bold;
+    color:#111827;
+    margin-top:10px;
+}
+/* Detection Card */
+
+.detect-card{
+    border-radius:14px;
+    border:1px solid #E5E7EB;
+    padding:18px;
+    margin-bottom:15px;
+    background:white;
+    transition:.3s;
+}
+
+.detect-card:hover{
+    box-shadow:0px 8px 20px rgba(0,0,0,.08);
+    transform:translateY(-2px);
+}
+
+.badge{
+    display:inline-block;
+    background:#EEF2FF;
+    color:#4F46E5;
+    padding:6px 12px;
+    border-radius:20px;
+    font-weight:bold;
+    font-size:14px;
+}
